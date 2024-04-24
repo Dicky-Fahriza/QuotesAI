@@ -14,6 +14,7 @@
 		527464182BD8DC32001537BF /* Topics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527464172BD8DC32001537BF /* Topics.swift */; };
 		5274641A2BD8DCDA001537BF /* StoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527464192BD8DCDA001537BF /* StoriesView.swift */; };
 		5274641C2BD8DCED001537BF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274641B2BD8DCED001537BF /* SettingsView.swift */; };
+		5274641F2BD8F52C001537BF /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274641E2BD8F52C001537BF /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		527464172BD8DC32001537BF /* Topics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topics.swift; sourceTree = "<group>"; };
 		527464192BD8DCDA001537BF /* StoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesView.swift; sourceTree = "<group>"; };
 		5274641B2BD8DCED001537BF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5274641E2BD8F52C001537BF /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		527464042BD8DBA3001537BF /* VoicesAI */ = {
 			isa = PBXGroup;
 			children = (
+				5274641D2BD8F51D001537BF /* Services */,
 				527464162BD8DC09001537BF /* Model */,
 				527464152BD8DBBA001537BF /* App */,
 				527464142BD8DBB4001537BF /* View */,
@@ -106,6 +109,14 @@
 				527464172BD8DC32001537BF /* Topics.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		5274641D2BD8F51D001537BF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5274641E2BD8F52C001537BF /* Constant.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +194,7 @@
 				527464182BD8DC32001537BF /* Topics.swift in Sources */,
 				527464082BD8DBA3001537BF /* ContentView.swift in Sources */,
 				527464062BD8DBA3001537BF /* VoicesAIApp.swift in Sources */,
+				5274641F2BD8F52C001537BF /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
