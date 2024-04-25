@@ -17,6 +17,7 @@
 		5274641F2BD8F52C001537BF /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5274641E2BD8F52C001537BF /* Constant.swift */; };
 		527464222BD9FCA5001537BF /* StoryVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527464212BD9FCA5001537BF /* StoryVM.swift */; };
 		527464252BD9FD25001537BF /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 527464242BD9FD25001537BF /* GoogleGenerativeAI */; };
+		527464272BDA3672001537BF /* ElevenLabsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527464262BDA3672001537BF /* ElevenLabsService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		5274641B2BD8DCED001537BF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		5274641E2BD8F52C001537BF /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		527464212BD9FCA5001537BF /* StoryVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryVM.swift; sourceTree = "<group>"; };
+		527464262BDA3672001537BF /* ElevenLabsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevenLabsService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				5274641E2BD8F52C001537BF /* Constant.swift */,
+				527464262BDA3672001537BF /* ElevenLabsService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				527464222BD9FCA5001537BF /* StoryVM.swift in Sources */,
 				5274641A2BD8DCDA001537BF /* StoriesView.swift in Sources */,
 				527464182BD8DC32001537BF /* Topics.swift in Sources */,
+				527464272BDA3672001537BF /* ElevenLabsService.swift in Sources */,
 				527464082BD8DBA3001537BF /* ContentView.swift in Sources */,
 				527464062BD8DBA3001537BF /* VoicesAIApp.swift in Sources */,
 				5274641F2BD8F52C001537BF /* Constant.swift in Sources */,
