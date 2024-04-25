@@ -40,6 +40,7 @@ class ElevenLabsService {
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         request.setValue(apiKey, forHTTPHeaderField: "xi-api-key")
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         request.httpBody = requestBody
         
         // NETWORK REQUEST
