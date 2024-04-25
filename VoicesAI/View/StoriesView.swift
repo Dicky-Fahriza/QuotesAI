@@ -55,7 +55,7 @@ struct StoriesView: View {
                 
                 // MARK: - TEXT EDITOR
                 Section {
-                    TextEditor(text: $storyVM.storyText)
+                    TextEditor(text: $storyVM.displayedStoryText)
                         .frame(height: 200)
                         .font(.system(.headline, design: .rounded))
                         .foregroundStyle(.blue)
@@ -63,6 +63,7 @@ struct StoriesView: View {
                         .overlay {
                             storyVM.isLoading ? ProgressView() : nil
                         }
+                        
                 } header: {
                     Text("Todays Story")
                 } footer: {

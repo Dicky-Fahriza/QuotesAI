@@ -9,7 +9,7 @@ import Foundation
 
 enum Topics: String, CaseIterable, Identifiable {
     case persahabatan = "Persahabatan"
-    case cinta = "Cinta"
+    case jokw = "Dark Joke"
     case motivasi = "Motivasi"
     case horor = "Horor"
     var id: Topics { self }
